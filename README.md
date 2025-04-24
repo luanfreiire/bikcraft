@@ -1,8 +1,7 @@
 <h1>Bikcraft 🚲</h1>
 
 <h2>Sobre 🔍</h2>
-<p>Um projeto simples para testar alguns conceitos de grid e media queries. Foi praticado também alguns conceitos de medidas relativas e posicionamento de imagens.
-Bikcraft trata-se de um site apresentativo de uma empresa fabricantes de bicicletas de alto desempenho.</p>
+<p>Desenvolvido para testar e aprofundar conhecimentos em Grid e Media Queries, este projeto resultou no site Bikcraft. A página apresenta uma empresa fabricante de bicicletas de alto desempenho, e sua construção envolveu a prática de medidas relativas e estratégias de posicionamento de imagens para garantir uma experiência visual atraente e adaptável.</p>
 
 <h2>Tecnologias 🤖</h2>
 <ul>
