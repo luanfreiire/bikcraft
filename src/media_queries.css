@@ -1,0 +1,53 @@
+@media (width <=1000px) {
+    .logotipo {
+        margin-top: 2rem;
+    }
+
+    .menu {
+        margin-top: 2.5rem;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        padding: 2rem 0;
+        gap: 1rem;
+    }
+
+    .introducao {
+        padding: 2rem;
+        justify-items: center;
+    }
+
+    .introducao h1 {
+        font-size: 1.5rem;
+    }
+
+    .introducao h1::before {
+        display: none;
+    }
+
+    .introducao p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 1rem;
+        max-width: 65ch;
+    }
+
+    .subtitulo {
+        margin-right: 0;
+        text-align: center;
+        margin: 1rem 2rem;
+    }
+
+    .subtitulo h2 {
+        font-size: 3rem;
+    }
+
+    .vantagens {
+        padding: 2rem;
+    }
+
+    .vantagens_item p {
+        max-width: 65ch;
+    }
+}

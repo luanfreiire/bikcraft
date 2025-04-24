@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+.logotipo {
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 8rem;
+}
+
+.introducao {
+    background-color: #fff;
+    padding: 4rem;
+    display: grid;
+    justify-items: right;
+    position: relative;
+}
+
+.introducao h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.introducao h1::before {
+    content: "";
+    width: 4rem;
+    height: 0.3rem;
+    background-color: orangered;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: -32px;
+}
+
+.introducao p {
+    font-size: 20px;
+    text-align: right;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.introducao button {
+    padding: 5px 40px;
+    font-size: 20px;
+    background-color: orangered;
+    color: #fff;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.introducao button:hover {
+    background-color: #900;
+}
+
+.bicicleta {
+    max-width: 100%;
+}
+
+.subtitulo {
+    align-self: center;
+    text-align: right;
+    margin-right: 4rem;
+}
+
+.subtitulo h2 {
+    text-transform: uppercase;
+    background-image: url(/src/assets/img/onda.svg);
+    background-size: contain;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.vantagens {
+    padding: 4rem;
+    background-color: #fff;
+}
+
+.vantagens_item {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    border-left: 4px solid transparent;
+}
+
+.vantagens_item:hover {
+    border-left: 4px solid orangered;
+}
+
+.vantagens_item:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.vantagens_item p {
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+footer p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 18px;
+}
