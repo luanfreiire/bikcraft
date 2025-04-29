@@ -51,3 +51,42 @@
         max-width: 65ch;
     }
 }
+
+@media(prefers-color-scheme:dark) {
+    body {
+        background-color: #111;
+    }
+
+    .logotipo img {
+        background-color: #555;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    .menu a {
+        background-color: #555;
+        color: #fff;
+        border-radius: 4px;
+        border-color: #555;
+    }
+
+    .introducao,
+    .vantagens {
+        background-color: #555;
+        color: #fff;
+    }
+
+
+    .vantagens_item:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.6);
+        color: #111;
+    }
+
+    .subtitulo h2 {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    footer p {
+        color: #fff;
+    }
+}
