@@ -1,25 +1,8 @@
 /* css */
+@import url(./global.css);
 @import url(./header.css);
+@import url(./introducao.css);
 @import url(./media-queries.css);
-
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100..900&display=swap');
-
-
-/* config */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-/* cores e tipografia */
-:root {
-    --bg-escuro: #000;
-    --preto-1: #111;
-    --font-main: "Poppins", sans-serif;
-    --font-secondary: "Roboto", sans-serif;
-}

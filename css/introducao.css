@@ -1,0 +1,42 @@
+/* main - introdução */
+
+.introducao-bg {
+    background-color: var(--bg-escuro);
+    color: #fff;
+    box-shadow: inset 0px -120px #fff;
+}
+
+.introducao-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2.5rem;
+}
+
+.introducao-conteudo h1 {
+    font-family: var(--font-main);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-bottom: 2rem;
+}
+
+.introducao-conteudo h1 span {
+    color: var(--cor-destaque);
+}
+
+.introducao-conteudo p {
+    font-family: var(--font-secondary);
+    color: #b2b2b2;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.introducao-img img {
+    height: 100%;
+    object-fit: cover;
+}
