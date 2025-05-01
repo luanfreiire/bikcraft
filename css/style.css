@@ -1,7 +1,7 @@
 /* css */
 @import url(./global.css);
-@import url(./header.css);
-@import url(./introducao.css);
+@import url(./header/header.css);
+@import url(./main/introducao.css);
 @import url(./media-queries.css);
 
 /* fontes */
