@@ -1,7 +1,7 @@
 /* header bikcraft */
 
 .header-bg {
-    background-color: var(--bg-escuro);
+    background-color: var(--cor-0);
 }
 
 .header {
@@ -27,6 +27,7 @@
     padding: 16px 0;
     font-size: 1.175rem;
     position: relative;
+    color: #fff;
 }
 
 .header-menu li a::after {

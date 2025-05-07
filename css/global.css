@@ -9,18 +9,20 @@
 
 /* cores e tipografia */
 :root {
-    --bg-escuro: #000;
-    --preto-1: #111;
-    --cor-destaque: #ffbb00;
+    --cor-0: #000;
+    --cor-1: #111;
+    --cor-2: #595959;
+    --cor-p1: #ffbb00;
+    --cor-p2: #320;
     --font-main: "Poppins", sans-serif;
     --font-secondary: "Roboto", sans-serif;
 }
 
-/* classes */
+/* classes utilitarias */
 .btn {
     display: inline-block;
-    background: linear-gradient(#ffbf00, #f2a50c);
-    color: #320;
+    background: linear-gradient(var(--cor-p1), #f2a50c);
+    color: var(--cor-p2);
     font-family: var(--font-main);
     font-weight: 700;
     font-size: 1.125rem;
@@ -36,17 +38,24 @@
     background: linear-gradient(#ffb60d, #e59317);
 }
 
-/* imagens */
-img {
-    display: block;
-    max-width: 100%;
-    border-radius: 4px;
+@media(width <=850px) {
+    .btn {
+        padding: 10px 20px;
+    }
 }
 
 /* resets */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
+
 a {
     text-decoration: none;
-    color: #fff;
     font-family: var(--font-main);
 }
 

@@ -1,0 +1,64 @@
+/* escolha bicicleta - main */
+
+.escolha-bicicleta h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-family: var(--font-main);
+}
+
+.escolha-bicicleta h2 span {
+    color: var(--cor-p1);
+}
+
+.escolha-container {
+    max-width: 1400px;
+    padding: 1.5rem;
+}
+
+.escolha-lista {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.escolha-lista li {
+    min-width: 280px;
+}
+
+.escolha-item img {
+    margin-bottom: 1rem;
+}
+
+.escolha-item h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--cor-1);
+}
+
+.escolha-item h3::before {
+    content: "";
+    width: 0.875rem;
+    height: 0.5rem;
+    background-color: var(--cor-p1);
+    display: inline-block;
+    transition: width 0.3s;
+}
+
+.escolha-item:hover h3::before {
+    width: 2rem;
+}
+
+.escolha-item p {
+    color: var(--cor-2);
+    display: inline;
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+}

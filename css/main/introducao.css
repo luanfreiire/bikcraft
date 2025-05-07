@@ -1,9 +1,10 @@
 /* main - introdução */
 
 .introducao-bg {
-    background-color: var(--bg-escuro);
+    background-color: var(--cor-0);
     color: #fff;
     box-shadow: inset 0px -120px #fff;
+    margin-bottom: 4rem;
 }
 
 .introducao-container {
@@ -25,7 +26,7 @@
 }
 
 .introducao-conteudo h1 span {
-    color: var(--cor-destaque);
+    color: var(--cor-p1);
 }
 
 .introducao-conteudo p {
@@ -34,6 +35,7 @@
     font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 2rem;
+    text-wrap: balance;
 }
 
 .introducao-img img {
