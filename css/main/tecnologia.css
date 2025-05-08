@@ -1,0 +1,97 @@
+/* tecnologia */
+
+.tecnologia-bg {
+    margin-top: 7.5rem;
+    background-color: var(--cor-1);
+    box-shadow: inset 0px 80px #fff, inset 0px -80px #fff;
+}
+
+.tecnologia-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tecnologia-container article {
+    padding: 8rem 0;
+}
+
+.tecnologia-artigo h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    color: var(--cor-3);
+    margin-bottom: 1.25rem;
+}
+
+.tecnologia-artigo h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: var(--font-main);
+    font-weight: 600;
+    text-wrap: balance;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.tecnologia-artigo span {
+    color: var(--cor-p1);
+}
+
+.tecnologia-artigo p {
+    color: var(--cor-3);
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.tecnologia-artigo a {
+    color: var(--cor-p1);
+    display: inline-block;
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 4px;
+    margin-bottom: 5rem;
+}
+
+.tecnologia-artigo a:hover {
+    color: #fff;
+}
+
+.eletrico-rastreador {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.eletrico-item img {
+    width: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.eletrico-item h3 {
+    color: #fff;
+    font-family: var(--font-main);
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    width: max-content;
+}
+
+.eletrico-item p {
+    font-family: var(--font-secondary);
+    color: var(--cor-3);
+}
+
+.tecnologia-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}

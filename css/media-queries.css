@@ -97,3 +97,61 @@
         font-size: 1.5rem;
     }
 }
+
+/* main-tecnologia */
+@media (width <=1250px) {
+    .tecnologia-container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (width <=960px) {
+    .tecnologia-artigo h3 {
+        font-size: 1rem;
+    }
+
+    .tecnologia-artigo h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .tecnologia-artigo p {
+        font-size: 1.2rem;
+        text-wrap: balance;
+    }
+
+    .tecnologia-artigo a {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (width <=825px) {
+    .tecnologia-bg {
+        margin-top: 2rem;
+        box-shadow: initial;
+    }
+
+    .tecnologia-container article {
+        padding: 2rem 0;
+    }
+
+    .tecnologia-container {
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia-img img {
+        display: none;
+    }
+}
+
+@media (width <=400px) {
+    .tecnologia-artigo h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .eletrico-rastreador {
+        flex-wrap: wrap;
+    }
+}
