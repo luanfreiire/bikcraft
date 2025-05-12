@@ -1,0 +1,46 @@
+/* parceiros */
+.parceiros {
+    padding-top: 3.75rem;
+    padding-bottom: 7.5rem;
+}
+
+.parceiros h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: var(--font-main);
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--cor-1);
+    padding-bottom: 3.75rem;
+}
+
+.parceiros h2 span {
+    color: var(--cor-p1);
+}
+
+.parceiros-img {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 1.25rem;
+}
+
+.parceiros-img li {
+    display: flex;
+    padding: 2rem;
+    border-left: 2px solid var(--cor-3);
+}
+
+.parceiros-img li:first-child,
+.parceiros-img li:nth-child(5) {
+    border-left: none;
+}
+
+.parceiros-img li:nth-child(n + 5) {
+    border-top: 2px solid var(--cor-3);
+}
+
+.parceiros-img img {
+    margin: auto;
+}
