@@ -17,6 +17,7 @@
     --cor-p2: #320;
     --font-main: "Poppins", sans-serif;
     --font-secondary: "Roboto", sans-serif;
+    --font-three: "Merriweather", sans-serif;
 }
 
 /* classes utilitarias */
@@ -47,7 +48,7 @@
 
 /* resets */
 img {
-    display: inline-block;
+    display: block;
     max-width: 100%;
 }
 
