@@ -280,3 +280,89 @@
         padding-right: 1rem;
     }
 }
+
+/* seguros */
+@media (width <=800px) {
+    .seguros-container {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .seguros-prata,
+    .seguros-ouro {
+        padding: 2rem;
+    }
+
+    .prata-header,
+    .ouro-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .prata-header h3,
+    .ouro-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .prata-header h4,
+    .ouro-header h4 {
+        font-size: 1.5rem;
+    }
+
+    .prata-lista,
+    .ouro-lista {
+        font-size: 1rem;
+    }
+
+    .prata-btn a {
+        padding: 10px 20px;
+    }
+}
+
+@media (width <=600px) {
+    .seguros-container {
+        grid-template-columns: 1fr;
+    }
+
+    .prata-header h3,
+    .ouro-header h3 {
+        font-size: 2rem;
+    }
+
+    .prata-lista,
+    .ouro-lista {
+        font-size: 1.4rem;
+    }
+
+    .seguros-prata a {
+        justify-content: center;
+    }
+
+    .prata-btn,
+    .ouro-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(width <=400px) {
+
+    .prata-header h3,
+    .ouro-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .prata-header h4,
+    .ouro-header h4 {
+        font-size: 1.2rem;
+    }
+
+    .prata-lista,
+    .ouro-lista {
+        font-size: 1rem;
+    }
+}
+
+@media(width <=300px) {
+    .seguros-container h2 {
+        font-size: 3rem;
+    }
+}

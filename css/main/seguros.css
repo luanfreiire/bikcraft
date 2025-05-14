@@ -1,0 +1,113 @@
+/* seguros */
+
+.seguros {
+    background-color: var(--cor-1);
+}
+
+.seguros-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3.75rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.seguros-container h2 {
+    grid-column: 1/-1;
+    font-family: var(--font-main);
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.seguros-container h2 span {
+    color: var(--cor-p1);
+}
+
+.seguros-prata,
+.seguros-ouro {
+    display: inline-block;
+    background-color: var(--cor-0);
+    border-radius: 4px;
+    padding: 2rem 3.5rem;
+}
+
+.prata-header,
+.ouro-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prata-header h3,
+.ouro-header h3 {
+    font-family: var(--font-main);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--cor-4);
+}
+
+.ouro-header h3 {
+    color: var(--cor-p1);
+}
+
+.prata-header h4,
+.ouro-header h4 {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-main);
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.prata-header h4 span,
+.ouro-header h4 span {
+    font-size: 0.75rem;
+    text-align: right;
+    color: var(--cor-4);
+}
+
+.prata-lista,
+.ouro-lista {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #fff;
+}
+
+.prata-lista li,
+.ouro-lista li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.prata-lista li::before,
+.ouro-lista li::before {
+    position: absolute;
+    left: -21px;
+    content: "";
+    background-image: url(/img/icones/lista.svg);
+    background-repeat: no-repeat;
+    width: 0.8rem;
+    height: 0.60rem;
+}
+
+.prata-btn a {
+    display: inline-block;
+    background: var(--cor-5);
+    color: var(--cor-6);
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
