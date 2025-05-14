@@ -43,6 +43,11 @@
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+.btn.btn-secondary {
+    background: var(--cor-5);
+    color: var(--cor-6);
+}
+
 @media(width <=850px) {
     .btn {
         padding: 10px 20px;

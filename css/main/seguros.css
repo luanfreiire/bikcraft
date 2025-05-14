@@ -26,22 +26,19 @@
     color: var(--cor-p1);
 }
 
-.seguros-prata,
-.seguros-ouro {
+.seguros-item {
     display: inline-block;
     background-color: var(--cor-0);
     border-radius: 4px;
     padding: 2rem 3.5rem;
 }
 
-.prata-header,
-.ouro-header {
+.seguros-item-header {
     display: flex;
     justify-content: space-between;
 }
 
-.prata-header h3,
-.ouro-header h3 {
+.seguros-item-titulo {
     font-family: var(--font-main);
     font-size: 2rem;
     font-weight: 600;
@@ -49,45 +46,39 @@
     color: var(--cor-4);
 }
 
-.ouro-header h3 {
+.seguros-item-titulo.ouro {
     color: var(--cor-p1);
 }
 
-.prata-header h4,
-.ouro-header h4 {
-    display: flex;
-    flex-direction: column;
+.seguros-item-header h4 {
     font-family: var(--font-main);
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
 }
 
-.prata-header h4 span,
-.ouro-header h4 span {
+.seguros-item-header h4 span {
+    display: block;
     font-size: 0.75rem;
     text-align: right;
     color: var(--cor-4);
 }
 
-.prata-lista,
-.ouro-lista {
+.seguros-item-lista {
     font-family: var(--font-secondary);
     font-weight: 500;
     font-size: 1.125rem;
     color: #fff;
 }
 
-.prata-lista li,
-.ouro-lista li {
+.seguros-item-lista li {
     display: flex;
     position: relative;
     align-items: center;
     margin-bottom: 1.5rem;
 }
 
-.prata-lista li::before,
-.ouro-lista li::before {
+.seguros-item-lista li::before {
     position: absolute;
     left: -21px;
     content: "";
@@ -95,19 +86,4 @@
     background-repeat: no-repeat;
     width: 0.8rem;
     height: 0.60rem;
-}
-
-.prata-btn a {
-    display: inline-block;
-    background: var(--cor-5);
-    color: var(--cor-6);
-    font-family: var(--font-main);
-    font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 24px;
-    text-transform: uppercase;
-    padding: 16px 32px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 1rem;
 }

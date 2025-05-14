@@ -287,33 +287,24 @@
         padding: 1.5rem 1.25rem;
     }
 
-    .seguros-prata,
-    .seguros-ouro {
+    .seguros-item {
         padding: 2rem;
     }
 
-    .prata-header,
-    .ouro-header {
+    .seguros-item-header {
         margin-bottom: 1.5rem;
     }
 
-    .prata-header h3,
-    .ouro-header h3 {
+    .seguros-item-header h3 {
         font-size: 1.5rem;
     }
 
-    .prata-header h4,
-    .ouro-header h4 {
+    .seguros-item-header h4 {
         font-size: 1.5rem;
     }
 
-    .prata-lista,
-    .ouro-lista {
+    .seguros-item-lista {
         font-size: 1rem;
-    }
-
-    .prata-btn a {
-        padding: 10px 20px;
     }
 }
 
@@ -322,22 +313,15 @@
         grid-template-columns: 1fr;
     }
 
-    .prata-header h3,
-    .ouro-header h3 {
+    .seguros-item-header h3 {
         font-size: 2rem;
     }
 
-    .prata-lista,
-    .ouro-lista {
+    .seguros-item-lista {
         font-size: 1.4rem;
     }
 
-    .seguros-prata a {
-        justify-content: center;
-    }
-
-    .prata-btn,
-    .ouro-btn {
+    .seguros-item-btn {
         display: flex;
         justify-content: center;
     }
@@ -345,18 +329,15 @@
 
 @media(width <=400px) {
 
-    .prata-header h3,
-    .ouro-header h3 {
+    .seguros-item-header h3 {
         font-size: 1.5rem;
     }
 
-    .prata-header h4,
-    .ouro-header h4 {
+    .seguros-item-header h4 {
         font-size: 1.2rem;
     }
 
-    .prata-lista,
-    .ouro-lista {
+    .seguros-item-lista {
         font-size: 1rem;
     }
 }
