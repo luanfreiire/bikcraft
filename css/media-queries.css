@@ -347,3 +347,21 @@
         font-size: 3rem;
     }
 }
+
+/* footer */
+@media(width <=750px) {
+    .footer-container {
+        gap: 0px 2rem;
+    }
+}
+
+@media(width <=600px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .footer-direitos {
+        margin-top: 0rem;
+    }
+}
