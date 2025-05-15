@@ -8,7 +8,9 @@
 @import url(./main/depoimento.css);
 @import url(./main/seguros.css);
 @import url(./footer/footer.css);
+@import url(./termos/termos.css);
 @import url(./media-queries.css);
+@import url(./media-queries/termos-media.css);
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,900;1,18..144,900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100..900&display=swap');
