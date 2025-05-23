@@ -4,11 +4,11 @@
         padding: 2.5rem 1.25rem;
     }
 
-    .termos-titulo h2 {
+    .termos-titulo p {
         font-size: 1rem;
     }
 
-    .termos-titulo h3 {
+    .termos-titulo h1 {
         font-size: 3rem;
     }
 
@@ -18,7 +18,7 @@
 }
 
 @media (width <=400px) {
-    .termos-titulo h3 {
+    .termos-titulo h1 {
         font-size: 2rem;
     }
 }
