@@ -1,0 +1,17 @@
+/* media queries - seguros */
+
+@media(width <=600px) {
+
+    .vantagens-container,
+    .perguntas-container {
+        padding: 2.5rem 1.25rem;
+    }
+}
+
+@media(width <=400px) {
+
+    .vantagens-container h1,
+    .perguntas-container h1 {
+        font-size: 2.5rem;
+    }
+}

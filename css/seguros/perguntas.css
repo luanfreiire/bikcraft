@@ -1,0 +1,67 @@
+/* seguros - perguntas frequentes */
+
+.perguntas {
+    color: var(--cor-1);
+}
+
+.perguntas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7.5rem 1.25rem;
+}
+
+.perguntas-container h1 {
+    font-family: var(--font-main);
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-bottom: 3.75rem;
+}
+
+.perguntas-container h1 span {
+    color: var(--cor-p1);
+}
+
+.perguntas-item {
+    padding: 1.25rem;
+    border-radius: 4px;
+}
+
+.perguntas-item:nth-child(odd) {
+    background-color: var(--cor-7);
+}
+
+.perguntas-item dt {
+    font-family: var(--font-main);
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+}
+
+.perguntas-item dt::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    display: inline-block;
+}
+
+.perguntas-item dt::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../../img/icones/seta-abrir.svg);
+    width: 14px;
+    height: 6px;
+}
+
+.perguntas-item dd {
+    font-family: var(--font-secondary);
+    color: var(--cor-5);
+    max-width: 75ch;
+    padding-left: 1.25rem;
+    padding-top: 1rem;
+}
