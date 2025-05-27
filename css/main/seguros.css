@@ -1,4 +1,6 @@
 /* seguros */
+/* OBS: esse arquivo contém os estilos da seção (seguros) presente no index.html e também os estilos da página (seguros)
+presente no seguros.html*/
 
 .seguros {
     background-color: var(--cor-1);
@@ -11,10 +13,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 2.5rem;
+    gap: 0px 2.5rem;
 }
 
-.seguros-container h2 {
+.seguros-container h1 {
     grid-column: 1/-1;
     font-family: var(--font-main);
     font-size: 4rem;
@@ -22,7 +24,7 @@
     color: #fff;
 }
 
-.seguros-container h2 span {
+.seguros-container h1 span {
     color: var(--cor-p1);
 }
 
@@ -31,6 +33,7 @@
     background-color: var(--cor-0);
     border-radius: 4px;
     padding: 2rem 3.5rem;
+    margin-top: 3.75rem;
 }
 
 .seguros-item-header {
@@ -86,4 +89,13 @@
     background-repeat: no-repeat;
     width: 0.8rem;
     height: 0.60rem;
+}
+
+/* menu - seguros */
+.seguros-subtitulo {
+    color: var(--cor-3);
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }

@@ -343,7 +343,7 @@
 }
 
 @media(width <=300px) {
-    .seguros-container h2 {
+    .seguros-container h1 {
         font-size: 3rem;
     }
 }
