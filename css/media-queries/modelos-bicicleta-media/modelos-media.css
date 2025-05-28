@@ -1,42 +1,42 @@
 /* media queries - nimbus stark */
 
 @media(width <=800px) {
-    .nimbus-titulo p {
+    .modelos-titulo p {
         font-size: 1.5rem;
     }
 
-    .nimbus-titulo h1 {
+    .modelos-titulo h1 {
         font-size: 3rem;
     }
 
-    .nimbus-content {
+    .modelos-content {
         grid-template-columns: 1fr;
     }
 }
 
 @media(width <=500px) {
-    .nimbus-container {
+    .modelos-container {
         padding: 2rem 1.25rem;
     }
 
-    .nimbus-titulo p {
+    .modelos-titulo p {
         font-size: 1rem;
     }
 
-    .nimbus-titulo h1 {
+    .modelos-titulo h1 {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
 
-    .nimbus-info p {
+    .modelos-info p {
         font-size: 1rem;
     }
 
-    .nimbus-comprar {
+    .modelos-comprar {
         grid-template-columns: 1fr;
     }
 
-    .nimbus-lista {
+    .modelos-lista {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }

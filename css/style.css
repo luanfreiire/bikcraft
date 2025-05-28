@@ -12,16 +12,17 @@
 @import url(./bicicletas/bicicletas.css);
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
-@import url(./nimbus-stark/nimbus.css);
-@import url(./nimbus-stark/outras-bicicletas.css);
-@import url(./nimbus-stark/pedale-seguro.css);
+@import url(./modelos-bicicleta/modelos.css);
+@import url(./modelos-bicicleta/outras-bicicletas.css);
+@import url(./modelos-bicicleta/pedale-seguro.css);
 @import url(./media-queries.css);
 @import url(./media-queries/termos-media.css);
 @import url(./media-queries/bicicletas-media.css);
 @import url(./media-queries/seguros-media.css);
-@import url(./media-queries/nimbus-media/nimbus-media.css);
-@import url(./media-queries/nimbus-media/outras-bicicletas-media.css);
-@import url(./media-queries/nimbus-media/pedale-seguro-media.css);
+@import url(./media-queries/modelos-bicicleta-media/modelos-media.css);
+@import url(./media-queries/modelos-bicicleta-media/outras-bicicletas-media.css);
+@import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);
+
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,900;1,18..144,900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100..900&display=swap');
