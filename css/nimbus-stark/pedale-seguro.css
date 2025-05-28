@@ -1,0 +1,44 @@
+/* pedale seguro */
+
+.pedale-seguro-bg {
+    background-color: var(--cor-1);
+    box-shadow: inset 0px 120px #fff, inset 0px -120px var(--cor-0);
+}
+
+.pedale-seguro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    padding: 0px 1.25rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.pedale-seguro-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.pedale-seguro-content {
+    margin: 11.25rem 0px;
+}
+
+.pedale-seguro-content h2 {
+    color: #fff;
+    font-family: var(--font-main);
+    font-size: 4rem;
+    line-height: 1.125;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.pedale-seguro-content h2 span {
+    color: var(--cor-p1);
+}
+
+.pedale-seguro-content p {
+    color: var(--cor-3);
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}

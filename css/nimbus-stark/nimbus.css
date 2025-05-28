@@ -1,0 +1,151 @@
+/* bicicletas - nimbus stark */
+
+.nimbus {
+    background-color: var(--cor-1);
+    color: #fff;
+}
+
+.nimbus-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3.75rem 1.25rem;
+}
+
+/* nimbus-titulo */
+.nimbus-titulo p {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--cor-3);
+}
+
+.nimbus-titulo h1 {
+    font-family: var(--font-main);
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.nimbus-titulo h1 span {
+    color: var(--cor-p1);
+}
+
+/* nimbus-content */
+.nimbus-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2.5rem;
+}
+
+.nimbus-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.nimbus-img img:first-child {
+    grid-column: 1/-1;
+}
+
+.nimbus-info p {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    color: var(--cor-3);
+    margin-bottom: 2rem;
+}
+
+.nimbus-comprar {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+    margin-bottom: 2.5rem;
+}
+
+.nimbus-comprar a {
+    grid-row: span 2;
+}
+
+.nimbus-comprar span {
+    font-family: var(--font-main);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-4);
+    background-color: var(--cor-0);
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nimbus-info h2 {
+    font-family: var(--font-main);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin: 12px 0px;
+}
+
+.nimbus-informacoes,
+.nimbus-tecnica {
+    background-color: var(--cor-0);
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.nimbus-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.nimbus-item img {
+    width: 24px;
+    margin-bottom: 4px;
+}
+
+.nimbus-item h2 {
+    font-family: var(--font-main);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.nimbus-item span {
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    color: var(--cor-3);
+}
+
+/* ficha técnica */
+.nimbus-tecnica-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nimbus-tecnica-item {
+    border-bottom: 1px solid var(--cor-1);
+    padding: 4px 0px;
+}
+
+.nimbus-tecnica-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.nimbus-tecnica-item h3 {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    color: var(--cor-8);
+}
+
+.nimbus-tecnica-item span {
+    color: var(--cor-4);
+    font-family: var(--font-secondary);
+}
