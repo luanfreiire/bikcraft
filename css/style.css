@@ -16,6 +16,7 @@
 @import url(./modelos-bicicleta/outras-bicicletas.css);
 @import url(./modelos-bicicleta/pedale-seguro.css);
 @import url(./contato/contato.css);
+@import url(./contato/form-contato.css);
 @import url(./contato/lojas-locais.css);
 
 /* media queries */
@@ -26,7 +27,7 @@
 @import url(./media-queries/modelos-bicicleta-media/modelos-media.css);
 @import url(./media-queries/modelos-bicicleta-media/outras-bicicletas-media.css);
 @import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);
-@import url(./media-queries/contato-media/contato-media.css);
+@import url(./media-queries/contato-media/dados-form-media.css);
 @import url(./media-queries/contato-media/lojas-locais-media.css);
 
 

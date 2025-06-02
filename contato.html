@@ -29,118 +29,119 @@
     </header>
 
     <!-- main -->
-    <main>
-        <!-- contato -->
-        <section class="contato-bg">
-            <div class="contato-container">
-                <div class="contato-titulo">
-                    <p>Respostas em até 24h</p>
-                    <h1>Nosso contato<span>.</span></h1>
-                </div>
-                <article class="contato-content">
-                    <div class="contato-loja-online">
-                        <h2>Loja Online</h2>
-                        <div class="loja-online-local">
-                            <p>Rua Ali Perto, 35</p>
-                            <p>Rio Grande do Norte - Encanto</p>
-                            <p>Brasil - Terra - Vita Láctea</p>
-                        </div>
-                        <div class="loja-online-meios">
-                            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
-                            <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
-                            <a href="tel:+55849999-9999">+55 84 9999-9999</a>
-                        </div>
-                        <picture class="contato-redes">
-                            <a href="#">
-                                <img src="./img/redes/instagram-p.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/redes/facebook-p.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/redes/youtube-p.svg" alt="">
-                            </a>
-                        </picture>
-                    </div>
+    <main class="contato-bg">
+        <div class="contato-titulo">
+            <p>Respostas em até 24h</p>
+            <h1>Nosso contato<span>.</span></h1>
+        </div>
 
-                    <form action="#" class="contato-form">
-                        <div>
-                            <label for="nome">Nome</label>
-                            <input type="text" placeholder="Nome">
-                        </div>
-                        <div>
-                            <label for="telefone">Telefone</label>
-                            <input type="tel" placeholder="Telefone">
-                        </div>
-                        <div class="form-col-2">
-                            <label for="email">Email</label>
-                            <input type="email" placeholder="contato@email.com">
-                        </div>
-                        <div class="form-col-2">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea name="mensagem" placeholder="O que você precisa?" rows="5" id=""></textarea>
-                        </div>
-                        <button class="btn">Enviar Mensagem</button>
-                    </form>
-                </article>
-            </div>
-        </section>
+        <!-- dados contato - formulario -->
+        <div class="dados-form">
+            <!-- contato - dados -->
+            <section class="contato-dados">
+                <h2>Loja online</h2>
+                <ul class="dados-endereco">
+                    <li>Rua Ali Perto, 35</li>
+                    <li>Rio de Janeiro - RJ</li>
+                    <li>Brasil - Terra - Vita Láctea</li>
+                </ul>
+                <ul class="dados-mail-tel">
+                    <li>
+                        <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+                    </li>
+                    <li>
+                        <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+552199999999">+55 21 9999-9999</a>
+                    </li>
+                </ul>
+                <picture class="dados-redes">
+                    <a href="#">
+                        <img src="./img/redes/instagram-p.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/redes/facebook-p.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/redes/youtube-p.svg" alt="">
+                    </a>
+                </picture>
+            </section>
+
+            <!-- formulario -->
+            <section class="form-container">
+                <form action="#" class="form-formulario">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Nome completo">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" placeholder="21 9999-9999">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="contato@email.com">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" placeholder="O que você precisa?" rows="5" id="mensagem"></textarea>
+                    </div>
+                    <button class="btn">Enviar Mensagem</button>
+                </form>
+            </section>
+        </div>
 
         <!-- lojas locais -->
-        <section class="lojas-locais-bg">
-            <div class="lojas-locais-container">
-                <div class="lojas-titulo">
-                    <h1>Lojas locais<span>.</span></h1>
-                </div>
-                <div class="lojas-mapa">
-                    <div class="lojas-localizacao">
-                        <picture>
-                            <img src="./img/lojas/rj.jpg" alt="">
-                        </picture>
-                        <ul class="lojas-lista">
-                            <h2>Rio de Janeiro</h2>
-                            <div class="lojas-item">
-                                <li>Rua Ali Perto, 25</li>
-                                <li>
-                                    <a href="mailto:rj@bikcraft.com">rn@bikcraft.com</a>
-                                </li>
-                                <li>Rio de Janeiro - RJ</li>
-                                <li>
-                                    <a href="tel:2199999999">21 9999-9999</a>
-                                </li>
-                            </div>
-                            <p>
-                                <img src="./img/icones/horario.svg" alt="">
-                                08-18h de seg à dom
-                            </p>
-                        </ul>
-                    </div>
-
-                    <div class="lojas-localizacao">
-                        <picture>
-                            <img src="./img/lojas/sp.jpg" alt="">
-                        </picture>
-                        <ul class="lojas-lista">
-                            <h2>São Paulo</h2>
-                            <div class="lojas-item">
-                                <li>Rua Ali Perto, 25</li>
-                                <li>
-                                    <a href="mailto:rn@bikcraft.com">sp@bikcraft.com</a>
-                                </li>
-                                <li>São Paulo - SP</li>
-                                <li>
-                                    <a href="tel:8499999999">11 9999-9999</a>
-                                </li>
-                            </div>
-                            <p>
-                                <img src="./img/icones/horario.svg" alt="">
-                                08-18h de seg à dom
-                            </p>
-                        </ul>
-                    </div>
-                </div>
+        <div class="lojas-locais">
+            <div class="contato-titulo">
+                <h1>Lojas locais<span>.</span></h1>
             </div>
+
+            <section class="lojas-locais-mapa">
+                <div class="loja-item">
+                    <picture class="loja-item-img">
+                        <img src="./img/lojas/rj.jpg" alt="Localização loja Bikcraft Rio de Janeiro">
+                    </picture>
+                    <div class="loja-item-content">
+                        <h2>Rio de Janeiro</h2>
+                        <ul class="lojas-lista">
+                            <li>Rua Ali Perto, 25</li>
+                            <li>
+                                <a href="mailto:rio@bikcraft.com">rio@bikcraft.com</a>
+                            </li>
+                            <li>Rio de Janeiro - RJ</li>
+                            <li>
+                                <a href="tel:219999-9999">21 9999-9999</a>
+                            </li>
+                        </ul>
+                        <p>08-18h de seg à dom</p>
+                    </div>
+                </div>
+
+                <div class="loja-item">
+                    <picture class="loja-item-img">
+                        <img src="./img/lojas/sp.jpg" alt="Localização loja Bikcraft São Paulo">
+                    </picture>
+                    <div class="loja-item-content">
+                        <h2>São Paulo</h2>
+                        <ul class="lojas-lista">
+                            <li>Rua Ali Perto, 25</li>
+                            <li>
+                                <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+                            </li>
+                            <li>São Paulo - SP</li>
+                            <li>
+                                <a href="tel:119999-9999">11 9999-9999</a>
+                            </li>
+                        </ul>
+                        <p>08-18h de seg à dom</p>
+                    </div>
+                </div>
+        </div>
         </section>
+        </div>
     </main>
 
     <!-- footer -->

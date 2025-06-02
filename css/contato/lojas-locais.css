@@ -1,41 +1,29 @@
 /* contato - lojas locais */
-.lojas-locais-bg {
-    background-color: var(--cor-7);
+
+.lojas-locais .contato-titulo h1 {
+    color: var(--cor-1);
 }
 
-.lojas-locais-container {
+.lojas-locais-mapa {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3.75rem 1.25rem;
-}
-
-.lojas-titulo h1 {
-    color: var(--cor-1);
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    text-transform: lowercase;
-    margin-bottom: 3.75rem;
-}
-
-.lojas-titulo h1 span {
-    color: var(--cor-p1);
-}
-
-.lojas-mapa {
+    padding: 0px 1.25rem 7.5rem 1.25rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
 }
 
-.lojas-lista {
+.loja-item-img img {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.loja-item-content {
     background-color: #fff;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 0px 4px 4px;
     padding: 2rem;
 }
 
-.lojas-lista h2 {
+.loja-item-content h2 {
     color: var(--cor-1);
     font-family: var(--font-main);
     font-size: 2rem;
@@ -43,24 +31,32 @@
     margin-bottom: 2rem;
 }
 
-.lojas-item {
+.lojas-lista {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
     margin-bottom: 2rem;
 }
 
-.lojas-item li,
-.lojas-item a {
+.lojas-lista li,
+.lojas-lista a {
     color: var(--cor-2);
     font-family: var(--font-secondary);
 }
 
-.lojas-lista p {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.loja-item-content p {
     color: var(--cor-1);
     font-family: var(--font-main);
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.loja-item-content p::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/icones/horario.svg);
 }

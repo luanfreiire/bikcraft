@@ -1,0 +1,37 @@
+/* contato, dados-form - media queries */
+
+@media(width <=800px) {
+    .contato-titulo {
+        padding: 2rem 1.25rem;
+    }
+
+    .dados-form {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-dados,
+    .form-container {
+        padding: 2rem;
+    }
+
+    .contato-dados h2 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media(width <=600px) {
+    .contato-titulo p {
+        font-size: 1rem;
+    }
+
+    .contato-titulo h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(width <=400px) {
+    .form-formulario {
+        display: flex;
+        flex-direction: column;
+    }
+}

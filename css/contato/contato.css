@@ -1,16 +1,14 @@
 /* contato */
+
 .contato-bg {
-    background: linear-gradient(var(--cor-1) 60%, var(--cor-7) 0%)
+    background: linear-gradient(var(--cor-1) 600px, var(--cor-7) 0px);
 }
 
-.contato-container {
+/* contato - titulo */
+.contato-titulo {
     max-width: 1200px;
     margin: 0 auto;
     padding: 3.75rem 1.25rem;
-}
-
-.contato-titulo {
-    margin-bottom: 3.75rem;
 }
 
 .contato-titulo p {
@@ -19,6 +17,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: 4px;
 }
 
 .contato-titulo h1 {
@@ -33,136 +32,68 @@
     color: var(--cor-p1);
 }
 
-.contato-content {
-    background: linear-gradient(to right, var(--cor-0) 45%, #fff 0%);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    color: #fff;
-    padding: 3.75rem;
+/* contato - dados, formulario */
+.dados-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 1.25rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 7fr;
 }
 
-.contato-loja-online h2 {
+.contato-dados {
+    background-color: var(--cor-0);
+    padding: 3.75rem;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contato-dados h2 {
     color: #fff;
     font-family: var(--font-main);
     font-size: 1.125rem;
     font-weight: 500;
+    text-transform: capitalize;
     margin-bottom: 3.75rem;
 }
 
-.loja-online-local {
+.dados-endereco {
+    background: url(../../img/icones/local.svg) no-repeat;
+    padding-left: 28px;
     margin-bottom: 2rem;
 }
 
-.loja-online-local p {
+.dados-endereco li {
     color: var(--cor-8);
     font-family: var(--font-secondary);
     margin-bottom: 8px;
-    margin-left: 1.75rem;
-    display: flex;
-    align-items: center;
 }
 
-.loja-online-local p:first-child {
-    margin-left: 0px;
+.dados-mail-tel li:nth-child(1) {
+    background: url(../../img/icones/email.svg) no-repeat;
 }
 
-.loja-online-local p:first-child::before {
-    content: "";
-    display: inline-block;
-    background-image: url(../../img/icones/local.svg);
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-}
-
-.loja-online-meios {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.loja-online-meios a {
+.dados-mail-tel li a {
+    display: block;
+    max-width: max-content;
     color: var(--cor-8);
     font-family: var(--font-secondary);
-    margin-left: 1.75rem;
-    display: flex;
-    align-items: center;
+    padding-left: 28px;
+    margin-bottom: 8px;
 }
 
-.loja-online-meios a:hover {
+.dados-mail-tel li a:hover {
     color: #fff;
 }
 
-.loja-online-meios a:first-child {
-    margin-left: 0px;
-}
-
-.loja-online-meios a:first-child::before {
-    content: "";
-    display: inline-block;
-    background-image: url(../../img/icones/email.svg);
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-}
-
-.loja-online-meios a:last-child::before {
-    content: "";
-    display: inline-block;
-    background-image: url(../../img/icones/telefone.svg);
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-}
-
-.loja-online-meios a:last-child {
+.dados-mail-tel li:nth-child(3) {
     margin-top: 2rem;
-    margin-left: 0px;
+    margin-bottom: 3.75rem;
+    background: url(../../img/icones/telefone.svg) no-repeat;
 }
 
-.contato-redes {
+.dados-redes {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-top: 3.75rem;
     margin-left: 1.75rem;
-}
-
-.contato-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25rem;
-}
-
-.contato-form label {
-    display: block;
-    margin-bottom: 4px;
-    color: var(--cor-1);
-    font-family: var(--font-main);
-    font-weight: 500;
-}
-
-.contato-form input,
-.contato-form textarea {
-    background-color: var(--cor-7);
-    border: 1px solid var(--cor-6);
-    border-radius: 4px;
-    outline: none;
-    font-family: var(--font-secondary);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 12px;
-    width: 100%;
-}
-
-.contato-form input:focus,
-.contato-form textarea:focus {
-    border-color: var(--cor-p1);
-}
-
-.form-col-2 {
-    grid-column: span 2;
 }
