@@ -1,0 +1,56 @@
+/* orçamento - media queries */
+
+@media(width <=800px) {
+    .orcamento-titulo {
+        padding: 2rem 1.25rem;
+    }
+
+    .orcamento-titulo p {
+        font-size: 1rem;
+    }
+
+    .orcamento-titulo h1 {
+        font-size: 2rem;
+    }
+
+    .orcamento {
+        grid-template-columns: 1fr;
+    }
+
+    .orcamento-produto,
+    .form-orcamento {
+        padding: 2rem;
+    }
+}
+
+@media (width <=600px) {
+    .form-orcamento-lista {
+        grid-template-columns: 1fr;
+    }
+
+    .form-orcamento li:nth-child(3),
+    .form-orcamento li:nth-child(4) {
+        grid-column: initial;
+    }
+}
+
+@media (width <=400px) {
+    .bikcraft-seguro {
+        grid-template-columns: 1fr;
+    }
+
+    .orcamento-btn {
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .orcamento-btn span {
+        position: relative;
+        right: 0px;
+    }
+
+    .orcamento-detalhes {
+        grid-template-columns: 1fr;
+    }
+}

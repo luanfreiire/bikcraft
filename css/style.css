@@ -18,6 +18,8 @@
 @import url(./contato/contato.css);
 @import url(./contato/form-contato.css);
 @import url(./contato/lojas-locais.css);
+@import url(./orcamento/orcamento.css);
+@import url(./orcamento/form-orcamento.css);
 
 /* media queries */
 @import url(./media-queries.css);
@@ -29,7 +31,7 @@
 @import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);
 @import url(./media-queries/contato-media/dados-form-media.css);
 @import url(./media-queries/contato-media/lojas-locais-media.css);
-
+@import url(./media-queries/orcamento-media/orcamento-media.css);
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,900;1,18..144,900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100..900&display=swap');

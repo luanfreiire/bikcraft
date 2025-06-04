@@ -1,0 +1,62 @@
+/* orçamento - formulário */
+
+.form-orcamento {
+    background-color: #fff;
+    padding: 3.75rem;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-orcamento .subtitulo-orcamento {
+    color: var(--cor-5);
+}
+
+.form-orcamento-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.form-orcamento li:nth-child(3),
+.form-orcamento li:nth-child(4) {
+    grid-column: span 2;
+}
+
+.form-orcamento li:nth-child(4) {
+    margin-bottom: 2.5rem;
+}
+
+.form-orcamento label {
+    display: block;
+    color: var(--cor-1);
+    font-family: var(--font-main);
+    font-weight: 500;
+}
+
+.form-orcamento input {
+    background-color: var(--cor-7);
+    border: 1px solid var(--cor-6);
+    border-radius: 4px;
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 12px;
+    width: 100%;
+}
+
+.form-orcamento input:focus {
+    outline: none;
+    border: 1px solid var(--cor-p1);
+    box-shadow: 0px 0px 0px 2px #fea;
+}
+
+.form-orcamento-lista.entrega {
+    margin-bottom: 1.25rem;
+}
+
+.form-orcamento-lista.entrega li:nth-child(3),
+.form-orcamento-lista.entrega li:nth-child(4) {
+    grid-column: initial;
+    margin-bottom: initial;
+}
