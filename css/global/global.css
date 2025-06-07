@@ -1,0 +1,45 @@
+/* global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-main);
+}
+
+ul {
+    list-style: none;
+}
+
+/* cores e tipografia */
+:root {
+    --cor-0: #000;
+    --cor-1: #111;
+    --cor-2: #595959;
+    --cor-3: #b2b2b2;
+    --cor-4: #9c9c9c;
+    --cor-5: #404040;
+    --cor-6: #ededed;
+    --cor-7: #f7f7f7;
+    --cor-8: #ccc;
+    --cor-9: #2e2e2e;
+    --cor-p1: #ffbb00;
+    --cor-p2: #320;
+    --font-main: "Poppins", sans-serif;
+    --font-secondary: "Roboto", sans-serif;
+    --font-three: "Merriweather", sans-serif;
+}

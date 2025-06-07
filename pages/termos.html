@@ -7,6 +7,7 @@
     <title>Termos e Condições | Bikcraft</title>
     <meta name="description" content="Termos e Condições Bikcraft.">
     <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/css/style.css" as="style">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -16,13 +17,13 @@
     <header class="header-bg">
         <div class="header">
             <a href="./">
-                <img src="/img/bikcraft.svg" alt="Bikcraft">
+                <img src="/img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
             </a>
             <nav aria-label="primária">
                 <ul class="header-menu">
-                    <li><a href="bicicletas.html">Bicicletas</a></li>
-                    <li><a href="seguros.html">Seguros</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="./bicicletas.html">Bicicletas</a></li>
+                    <li><a href="./seguros.html">Seguros</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -71,42 +72,50 @@
     <!-- footer -->
     <footer>
         <section class="footer-bg">
-            <div class="footer-container">
-                <picture class="footer-bikcraft">
-                    <img src="./img/bikcraft.svg" alt="">
+            <div class="footer container">
+                <picture>
+                    <a href="./">
+                        <img src="./img/bikcraft.svg" width="136" height="32" alt="Logotipo Bikcraft">
+                    </a>
                 </picture>
-                <article class="footer-contato">
-                    <h2>Contato</h2>
-                    <ul class="footer-contato-lista">
+                <div>
+                    <h2 class="footer-titulo">Contato</h2>
+                    <ul class="footer-lista">
                         <li>+55 84 9999-9999</li>
                         <li>contato@bikcraft.com</li>
                         <li>Rua Ali Perto, 50 - Centro</li>
                         <li>São Domingos - CE</li>
                     </ul>
-                    <picture class="footer-redes">
-                        <a href="#"><img src="./img/redes/instagram.svg" alt=""></a>
-                        <a href="#"><img src="./img/redes/facebook.svg" alt=""></a>
-                        <a href="#"><img src="./img/redes/youtube.svg" alt=""></a>
-                    </picture>
-                </article>
-                <article class="footer-info">
-                    <h2>Informações</h2>
-                    <ul class="footer-info-lista">
+                    <div class="footer-redes">
+                        <a href="#">
+                            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram Bikcraft">
+                        </a>
+                        <a href="#">
+                            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook Bikcraft">
+                        </a>
+                        <a href="#">
+                            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube Bikcraft">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="footer-titulo">Informações</h2>
+                    <ul class="footer-lista-link">
                         <li>
-                            <a href="#">Bicicletas</a>
+                            <a href="/pages/bicicletas.html">Bicicletas</a>
                         </li>
                         <li>
-                            <a href="#">Seguros</a>
+                            <a href="/pages/seguros.html">Seguros</a>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="/pages/contato.html">Contato</a>
                         </li>
                         <li>
-                            <a href="/termos.html">Termos e Condições</a>
+                            <a href="/pages/termos.html">Termos e Condições</a>
                         </li>
                     </ul>
-                </article>
-                <h3 class="footer-direitos">Bikcraft © Alguns direitos reservados. @LuanFreire</h3>
+                </div>
+                <h3>Bikcraft © Alguns direitos reservados. @LuanFreire</h3>
             </div>
         </section>
     </footer>

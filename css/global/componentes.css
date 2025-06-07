@@ -1,0 +1,70 @@
+/* componentes */
+
+/* container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 1.25rem;
+}
+
+/* titulo nivel 2 */
+.titulo2 {
+    font: 600 4rem/1.125 var(--font-main), sans-serif;
+    text-transform: lowercase;
+}
+
+.titulo2 span {
+    color: var(--cor-p1);
+}
+
+@media (width <=1200px) {
+    .titulo2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* subtitulos */
+.subtitulo {
+    color: var(--cor-3);
+    font: 500 1.5rem/1.5 var(--font-secondary), sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+@media(width <=800px) {
+    .subtitulo {
+        font-size: 1rem;
+    }
+}
+
+/* botão p1 */
+.btn {
+    display: inline-block;
+    background: linear-gradient(var(--cor-p1), #f2a50c);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: var(--cor-p2);
+    font: 600 1.125rem/1.35 var(--font-main);
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+.btn:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+/* botão p2 */
+.btn.secondary {
+    background: var(--cor-5);
+    color: var(--cor-6);
+}
+
+@media(width <=600px) {
+    .btn {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}

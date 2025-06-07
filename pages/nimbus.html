@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nebula Cosmic | Bikcraft</title>
-    <meta name="description" content="Bicicleta Nebula Cosmic Bikcraft">
+    <title>Nimbus Stark | Bikcraft</title>
+    <meta name="description" content="Bicicleta Nimbus Stark Bikcraft">
     <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/css/style.css" as="style">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -16,13 +17,13 @@
     <header class="header-bg">
         <div class="header">
             <a href="./">
-                <img src="/img/bikcraft.svg" alt="Bikcraft">
+                <img src="/img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
             </a>
             <nav aria-label="primária">
                 <ul class="header-menu">
-                    <li><a href="bicicletas.html">Bicicletas</a></li>
-                    <li><a href="seguros.html">Seguros</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="./bicicletas.html">Bicicletas</a></li>
+                    <li><a href="./seguros.html">Seguros</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,22 +31,23 @@
 
     <!-- main -->
     <main>
-        <!-- nebula cosmic -->
+
+        <!-- nimbus stark -->
         <section class="modelos">
             <article class="modelos-container">
                 <div class="modelos-titulo">
                     <p>R$ 4999</p>
-                    <h1>Nebula Cosmic<span>.</span></h1>
+                    <h1>Nimbus Stark<span>.</span></h1>
                 </div>
                 <div class="modelos-content">
                     <picture class="modelos-img">
-                        <img src="./img/bicicleta/nimbus3.jpg" alt="">
                         <img src="./img/bicicleta/nimbus1.jpg" alt="">
                         <img src="./img/bicicleta/nimbus2.jpg" alt="">
+                        <img src="./img/bicicleta/nimbus3.jpg" alt="">
                     </picture>
                     <div class="modelos-info">
                         <p>
-                            A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os
+                            A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os
                             melhores acessórios, o que garante maior velocidade.
                         </p>
                         <div class="modelos-comprar">
@@ -70,7 +72,7 @@
                                 </li>
                                 <li class="modelos-item">
                                     <img src="./img/icones/velocidade.svg" alt="">
-                                    <h2>40 km/h</h2>
+                                    <h2>50 km/h</h2>
                                     <span>A mais rápida bicicleta elétrica disponível hoje no mercado.</span>
                                 </li>
                                 <li class="modelos-item">
@@ -125,21 +127,21 @@
                 <h2>Outras bicicletas<span>.</span></h2>
                 <ul class="outras-bicicletas-lista">
                     <li class="outras-bicicletas-item">
-                        <a href="./nimbus.html">
-                            <picture>
-                                <img src="./img/bicicletas/nimbus.jpg" alt="">
-                            </picture>
-                            <h3>Nimbus Stark</h3>
-                            <span>R$ 4999</span>
-                        </a>
-                    </li>
-                    <li class="outras-bicicletas-item">
                         <a href="./magic.html">
                             <picture>
                                 <img src="./img/bicicletas/magic.jpg" alt="">
                             </picture>
                             <h3>Magic Might</h3>
                             <span>R$ 2499</span>
+                        </a>
+                    </li>
+                    <li class="outras-bicicletas-item">
+                        <a href="./nebula.html">
+                            <picture>
+                                <img src="./img/bicicletas/nebula.jpg" alt="">
+                            </picture>
+                            <h3>Nebula Cosmic</h3>
+                            <span>R$ 3999</span>
                         </a>
                     </li>
                 </ul>
@@ -164,42 +166,50 @@
     <!-- footer -->
     <footer>
         <section class="footer-bg">
-            <div class="footer-container">
-                <picture class="footer-bikcraft">
-                    <img src="./img/bikcraft.svg" alt="">
+            <div class="footer container">
+                <picture>
+                    <a href="./">
+                        <img src="./img/bikcraft.svg" width="136" height="32" alt="Logotipo Bikcraft">
+                    </a>
                 </picture>
-                <article class="footer-contato">
-                    <h2>Contato</h2>
-                    <ul class="footer-contato-lista">
+                <div>
+                    <h2 class="footer-titulo">Contato</h2>
+                    <ul class="footer-lista">
                         <li>+55 84 9999-9999</li>
                         <li>contato@bikcraft.com</li>
                         <li>Rua Ali Perto, 50 - Centro</li>
                         <li>São Domingos - CE</li>
                     </ul>
-                    <picture class="footer-redes">
-                        <a href="#"><img src="./img/redes/instagram.svg" alt=""></a>
-                        <a href="#"><img src="./img/redes/facebook.svg" alt=""></a>
-                        <a href="#"><img src="./img/redes/youtube.svg" alt=""></a>
-                    </picture>
-                </article>
-                <article class="footer-info">
-                    <h2>Informações</h2>
-                    <ul class="footer-info-lista">
+                    <div class="footer-redes">
+                        <a href="#">
+                            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram Bikcraft">
+                        </a>
+                        <a href="#">
+                            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook Bikcraft">
+                        </a>
+                        <a href="#">
+                            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube Bikcraft">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="footer-titulo">Informações</h2>
+                    <ul class="footer-lista-link">
                         <li>
-                            <a href="bicicletas.html">Bicicletas</a>
+                            <a href="/pages/bicicletas.html">Bicicletas</a>
                         </li>
                         <li>
-                            <a href="#">Seguros</a>
+                            <a href="/pages/seguros.html">Seguros</a>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="/pages/contato.html">Contato</a>
                         </li>
                         <li>
-                            <a href="/termos.html">Termos e Condições</a>
+                            <a href="/pages/termos.html">Termos e Condições</a>
                         </li>
                     </ul>
-                </article>
-                <h3 class="footer-direitos">Bikcraft © Alguns direitos reservados. @LuanFreire</h3>
+                </div>
+                <h3>Bikcraft © Alguns direitos reservados. @LuanFreire</h3>
             </div>
         </section>
     </footer>

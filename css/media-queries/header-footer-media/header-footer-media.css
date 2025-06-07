@@ -1,0 +1,38 @@
+/* media queires - header, footer */
+
+/* header */
+@media (width <=800px) {
+    .header-menu {
+        gap: 1.5rem;
+    }
+
+    .header-menu li a {
+        background-color: var(--cor-1);
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .header-menu li a:hover::after {
+        display: none;
+    }
+}
+
+@media (width <=600px) {
+    .header-menu {
+        gap: 1rem;
+    }
+
+    .header-menu li a {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+/* footer */
+@media(width <=600px) {
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+}

@@ -1,0 +1,160 @@
+/* media queires - home */
+
+/* home - introdução */
+@media (width <=1200px) {
+    .introducao-bg {
+        box-shadow: inset 0px -80px #fff;
+    }
+
+    .introducao-conteudo h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .introducao-conteudo p {
+        margin-bottom: 1rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media(width <=800px) {
+    .introducao-bg {
+        background-color: var(--cor-1);
+    }
+
+    .introducao.container {
+        grid-template-columns: 1fr;
+        padding-top: 2rem;
+    }
+}
+
+
+/* home-escolha-bicicleta */
+@media (width <=1000px) {
+    .escolha-lista {
+        gap: 1rem;
+        overflow-x: auto;
+    }
+}
+
+
+/* home-tecnologia */
+@media (width <=900px) {
+    .tecnologia-bg {
+        margin-top: 2rem;
+        box-shadow: initial;
+    }
+
+    .tecnologia {
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia article {
+        padding: 2rem 0;
+    }
+
+    .tecnologia-img img {
+        display: none;
+    }
+}
+
+@media (width <=800px) {
+    .tecnologia-artigo p {
+        font-size: 1rem;
+    }
+
+    .tecnologia-artigo a {
+        margin-bottom: 3rem;
+    }
+
+    .tecnologia-vantagens {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* home-parceiros */
+
+@media (width <=600px) {
+    .parceiros h2 {
+        margin-bottom: 1.25rem;
+    }
+
+    .parceiros-lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parceiros-lista li {
+        border-right: 2px solid var(--cor-3);
+        border-left: none;
+    }
+
+    .parceiros-lista li:nth-child(even) {
+        border-right: none;
+    }
+
+    .parceiros-lista li:nth-child(n + 3) {
+        border-top: 2px solid var(--cor-3);
+    }
+}
+
+/* home - depoimentos */
+@media(width >=1200px) {
+    .depoimento-img img {
+        max-height: 520px;
+    }
+}
+
+@media(width <=800px) {
+    .depoimento {
+        grid-template-columns: 1fr;
+    }
+
+    .depoimento-img img {
+        max-height: 200px;
+    }
+
+    .depoimento-conteudo {
+        align-items: center;
+        padding-bottom: 2.5rem;
+    }
+
+    .depoimento-conteudo p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width <=600px) {
+    .depoimento-conteudo {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .depoimento-conteudo p::before,
+    .depoimento-conteudo p::after {
+        display: none;
+    }
+}
+
+/* home - seguros */
+
+@media(width <=1200px) {
+    .seguros h2 {
+        font-size: 3rem;
+    }
+
+    .seguros-item {
+        margin-top: 2rem;
+    }
+}
+
+@media(width <=800px) {
+    .seguros {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(width <=400px) {
+    .seguros-item-titulo p {
+        font-size: 1rem;
+    }
+}

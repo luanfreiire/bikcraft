@@ -1,0 +1,68 @@
+/* tecnologia */
+
+.tecnologia-bg {
+    margin-top: 7.5rem;
+    background-color: var(--cor-1);
+    box-shadow: inset 0px 80px #fff, inset 0px -80px #fff;
+}
+
+.tecnologia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.tecnologia article {
+    padding: 8rem 0;
+}
+
+.titulo2.artigo {
+    color: #fff;
+    margin: 1.25rem 0px 2rem 0px;
+}
+
+.tecnologia-artigo p {
+    color: var(--cor-3);
+    font: 400 1.5rem/1.5 var(--font-secondary), sans-serif;
+    max-width: 70ch;
+    margin-bottom: 1.25rem;
+}
+
+.tecnologia-artigo a {
+    color: var(--cor-p1);
+    display: inline-block;
+    font: 500 1.5rem/1.5 var(--font-main), sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 4px;
+    margin-bottom: 5rem;
+}
+
+.tecnologia-artigo a:hover {
+    color: #fff;
+}
+
+.tecnologia-vantagens {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.tecnologia-item h3 {
+    color: #fff;
+    font: 500 1.125rem/1.35 var(--font-main), sans-serif;
+    margin: 8px 0px;
+    width: max-content;
+}
+
+.tecnologia-item p {
+    color: var(--cor-3);
+    font: 400 1rem/1.5 var(--font-secondary), sans-serif;
+    max-width: 65ch;
+}
+
+.tecnologia-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}

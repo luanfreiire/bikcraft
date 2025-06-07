@@ -1,0 +1,35 @@
+/* parceiros */
+
+.parceiros {
+    padding: 3.75rem 0px;
+}
+
+.parceiros h2 {
+    margin-bottom: 3.75rem;
+}
+
+.parceiros-lista {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.parceiros-lista li {
+    display: flex;
+    padding: 2rem;
+    border-left: 2px solid var(--cor-3);
+}
+
+.parceiros-lista li:first-child,
+.parceiros-lista li:nth-child(5) {
+    border-left: none;
+}
+
+.parceiros-lista li:nth-child(n + 5) {
+    border-top: 2px solid var(--cor-3);
+}
+
+.parceiros-lista img {
+    margin: auto;
+    min-width: 60px;
+}

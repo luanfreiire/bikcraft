@@ -1,13 +1,21 @@
-/* css */
-@import url(./global.css);
-@import url(./header/header.css);
-@import url(./main/introducao.css);
-@import url(./main/escolha-bicicleta.css);
-@import url(./main/tecnologia.css);
-@import url(./main/parceiros.css);
-@import url(./main/depoimento.css);
-@import url(./main/seguros.css);
-@import url(./footer/footer.css);
+/* styles css */
+@import url(./global/global.css);
+
+/* componentes */
+@import url(./global/componentes.css);
+
+/* header e footer */
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+/* home */
+@import url(./home/introducao.css);
+@import url(./home/escolha-bicicleta.css);
+@import url(./home/tecnologia.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimento.css);
+@import url(./home/seguros-home.css);
+
 @import url(./termos/termos.css);
 @import url(./bicicletas/bicicletas.css);
 @import url(./seguros/vantagens.css);
@@ -22,7 +30,8 @@
 @import url(./orcamento/form-orcamento.css);
 
 /* media queries */
-@import url(./media-queries.css);
+@import url(./media-queries/home-media/home-media.css);
+@import url(./media-queries/header-footer-media/header-footer-media.css);
 @import url(./media-queries/termos-media.css);
 @import url(./media-queries/bicicletas-media.css);
 @import url(./media-queries/seguros-media.css);

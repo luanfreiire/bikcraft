@@ -1,0 +1,47 @@
+/* home - escolha bicicleta */
+
+.escolha-container {
+    max-width: 1400px;
+    padding: 1.25rem;
+}
+
+.escolha-lista {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.escolha-lista li {
+    min-width: 280px;
+}
+
+.escolha-item img {
+    margin-bottom: 1rem;
+}
+
+.escolha-item h3 {
+    color: var(--cor-1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: 600 2rem/1.25 var(--font-main), sans-serif;
+}
+
+.escolha-item h3::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    display: inline-block;
+    transition: width 0.3s;
+}
+
+.escolha-item:hover h3::before {
+    width: 2rem;
+}
+
+.escolha-item p {
+    color: var(--cor-2);
+    font: 500 1.125rem/1.35 var(--font-secondary), sans-serif;
+    padding-top: 8px;
+    margin-left: 1.25rem;
+}
