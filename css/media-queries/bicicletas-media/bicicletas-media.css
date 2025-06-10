@@ -1,0 +1,33 @@
+/* media queries - bicicletas */
+@media(width <=800px) {
+    .bicicletas {
+        padding: 2.5rem 1.25rem;
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas-img img {
+        margin-bottom: 1.25rem;
+    }
+
+    .bicicletas-conteudo h2 {
+        font-size: 1.5rem;
+    }
+
+    .bicicletas-sobre {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas-sobre a {
+        place-self: start;
+        margin-top: 1rem;
+    }
+
+    .bicicletas-sobre ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .magic-bg {
+        background: var(--cor-1);
+    }
+}

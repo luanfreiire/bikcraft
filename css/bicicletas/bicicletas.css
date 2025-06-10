@@ -1,40 +1,7 @@
 /* bicicletas */
 
-/* bicicletas-titulo */
-.bicicletas-titulo-bg {
-    background-color: var(--cor-1);
-}
-
-.bicicletas-titulo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3.75rem 1.25rem;
-}
-
-.bicicletas-titulo p {
-    font-family: var(--font-secondary);
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--cor-3);
-}
-
-.bicicletas-titulo h1 {
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    color: #fff;
-    text-transform: lowercase;
-}
-
-.bicicletas-titulo h1 span {
-    color: var(--cor-p1);
-}
-
 /* bicicletas-container*/
-.bicicletas-container {
-    max-width: 1200px;
-    margin: 0 auto;
+.bicicletas {
     padding: 3.75rem 1.25rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -50,19 +17,16 @@
     top: 20px;
     right: 0px;
     color: #fff;
+    font: 500 1.125rem/1.35 var(--font-secondary), sans-serif;
     background-color: var(--cor-0);
-    font-family: var(--font-secondary);
-    font-size: 1.125rem;
-    font-weight: 500;
-    padding: 0.625rem;
+    padding: 8px 16px 8px 8px;
     border-radius: 4px 0px 0px 4px;
 }
 
 .bicicletas-conteudo h2 {
-    font-family: var(--font-main);
-    font-size: 2rem;
-    font-weight: 600;
     color: var(--cor-1);
+    font-size: 2rem;
+    text-transform: capitalize;
     display: flex;
     flex-direction: column;
     margin-bottom: 1.25rem;
@@ -70,39 +34,35 @@
 
 .bicicletas-conteudo h2::before {
     content: "";
-    width: 0.8rem;
-    height: 0.5rem;
-    background-color: var(--cor-p1);
     display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
 }
 
 .bicicletas-conteudo p {
-    font-family: var(--font-secondary);
     color: var(--cor-2);
+    font: 400 1rem/1.5 var(--font-secondary), sans-serif;
     margin-bottom: 2rem;
 }
 
 .bicicletas-sobre {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
 }
 
-.bicicletas-sobre ul {
-    font-family: var(--font-main);
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: var(--cor-2);
-}
-
-.bicicletas-sobre li {
+.bicicletas-sobre-lista li {
     display: flex;
     align-items: center;
+    color: var(--cor-2);
+    font: 500 1.125rem/1.35 var(--font-main), sans-serif;
     margin-bottom: 1rem;
 }
 
-.bicicletas-sobre li img {
-    width: 1.5rem;
-    height: 1.5rem;
+.bicicletas-sobre-lista li img {
+    width: 24px;
+    height: 24px;
     margin-right: 8px;
 }
 
@@ -120,6 +80,6 @@
 }
 
 .bicicletas-conteudo.magic p,
-.bicicletas-sobre-lista.magic {
+.bicicletas-sobre-lista.magic li {
     color: var(--cor-3);
 }

@@ -7,6 +7,51 @@
     padding: 0px 1.25rem;
 }
 
+/* titulo nivel 1 */
+.titulo-bg {
+    background-color: var(--cor-1);
+}
+
+.titulo1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3.75rem 1.25rem;
+}
+
+.titulo1 p {
+    color: var(--cor-3);
+    font: 500 1.5rem/1.5 var(--font-secondary), sans-serif;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.titulo1 h1 {
+    color: #fff;
+    font: 600 4rem/1.125 var(--font-main), sans-serif;
+}
+
+.titulo1 h1 span {
+    color: var(--cor-p1);
+}
+
+@media (width <=600px) {
+    .titulo1 {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .titulo1 p {
+        font-weight: 400;
+        font-size: 1rem;
+        text-transform: lowercase;
+    }
+
+    .titulo1 h1 {
+        font-size: 2rem;
+    }
+}
+
+
 /* titulo nivel 2 */
 .titulo2 {
     font: 600 4rem/1.125 var(--font-main), sans-serif;
@@ -22,6 +67,7 @@
         font-size: 2.5rem;
     }
 }
+
 
 /* subtitulos */
 .subtitulo {
