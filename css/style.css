@@ -8,7 +8,7 @@
 @import url(./global/header.css);
 @import url(./global/footer.css);
 
-/* home */
+/* home - index */
 @import url(./home/introducao.css);
 @import url(./home/escolha-bicicleta.css);
 @import url(./home/tecnologia.css);
@@ -16,13 +16,19 @@
 @import url(./home/depoimento.css);
 @import url(./home/seguros-home.css);
 
-@import url(./termos/termos.css);
+/* bicicletas */
 @import url(./bicicletas/bicicletas.css);
-@import url(./seguros/vantagens.css);
-@import url(./seguros/perguntas.css);
-@import url(./modelos-bicicleta/modelos.css);
+
+/* modelos bicicletas - nimbus, magic, nebula*/
+@import url(./modelos-bicicleta/modelos-bicicletas.css);
 @import url(./modelos-bicicleta/outras-bicicletas.css);
 @import url(./modelos-bicicleta/pedale-seguro.css);
+
+
+@import url(./termos/termos.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
+
 @import url(./contato/contato.css);
 @import url(./contato/form-contato.css);
 @import url(./contato/lojas-locais.css);

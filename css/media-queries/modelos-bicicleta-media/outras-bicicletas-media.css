@@ -1,12 +1,4 @@
-/* media queries - outras bicicletas - nimbus stark */
-
-@media (width <=800px) {
-    .outras-bicicletas h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1.5rem;
-    }
-}
-
+/* media queries - outras bicicletas */
 @media (width <=600px) {
     .outras-bicicletas-lista {
         flex-direction: column;

@@ -1,34 +1,19 @@
 /* modelos bicicletas */
 
-.modelos {
-    background-color: var(--cor-1);
-    color: #fff;
+#modelos .titulo1 {
+    padding: 3.75rem 1.25rem 2.5rem 1.25rem;
 }
 
-.modelos-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3.75rem 1.25rem;
-}
-
-/* modelos-titulo */
-.modelos-titulo p {
-    font-family: var(--font-secondary);
-    font-weight: 500;
+#modelos .titulo1 p {
     font-size: 2rem;
-    color: var(--cor-3);
 }
 
-.modelos-titulo h1 {
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 2.5rem;
+.modelos-bg {
+    background-color: var(--cor-1);
 }
 
-.modelos-titulo h1 span {
-    color: var(--cor-p1);
+.modelos {
+    padding: 0px 1.25rem 2.5rem 1.25rem;
 }
 
 /* modelos-content */
@@ -50,9 +35,8 @@
 }
 
 .modelos-info p {
-    font-family: var(--font-secondary);
-    font-size: 1.5rem;
     color: var(--cor-3);
+    font: 400 1.5rem/1.5 var(--font-secondary), sans-serif;
     margin-bottom: 2rem;
 }
 
@@ -70,10 +54,8 @@
 }
 
 .modelos-comprar span {
-    font-family: var(--font-main);
-    font-size: 12px;
-    font-weight: 500;
     color: var(--cor-4);
+    font: 500 12px var(--font-main), sans-serif;
     background-color: var(--cor-0);
     border-radius: 4px;
     padding: 4px 8px;
@@ -83,46 +65,46 @@
 }
 
 .modelos-info h2 {
-    font-family: var(--font-main);
-    font-size: 12px;
-    font-weight: 500;
+    color: #fff;
+    font: 500 0.75rem/1.35 var(--font-main), sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.18px;
-    margin: 12px 0px;
+    letter-spacing: 0.015em;
+    margin-bottom: 12px;
 }
 
-.modelos-informacoes,
-.modelos-tecnica {
+.modelos-modal {
     background-color: var(--cor-0);
     padding: 2rem;
     border-radius: 4px;
 }
 
-.modelos-lista {
+.modelos-info-lista {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.modelos-item img {
+.modelos-info-item img {
     width: 24px;
     margin-bottom: 4px;
 }
 
-.modelos-item h2 {
-    font-family: var(--font-main);
-    font-size: 1.125rem;
-    font-weight: 500;
+.modelos-info-item h3 {
+    color: #fff;
+    font: 500 1.125rem/1.35 var(--font-main), sans-serif;
     margin-bottom: 8px;
 }
 
-.modelos-item span {
-    font-family: var(--font-secondary);
-    font-size: 14px;
+.modelos-info-item span {
     color: var(--cor-3);
+    font: 400 0.875rem/1.43 var(--font-secondary), sans-serif;
 }
 
 /* ficha técnica */
+.subtitulo-ficha {
+    margin: 2.5rem 0px 12px 0px;
+}
+
 .modelos-tecnica-item {
     display: flex;
     align-items: center;
@@ -139,13 +121,12 @@
     padding-bottom: 0px;
 }
 
-.modelos-tecnica-item h3 {
-    font-family: var(--font-secondary);
-    font-weight: 400;
+.modelos-tecnica-item h3,
+.modelos-tecnica-item span {
     color: var(--cor-8);
+    font: 400 1rem/1.5 var(--font-secondary), sans-serif;
 }
 
 .modelos-tecnica-item span {
     color: var(--cor-4);
-    font-family: var(--font-secondary);
 }

@@ -1,21 +1,11 @@
 /* outras bicicletas */
 
 .outras-bicicletas {
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 3.75rem 1.25rem 8.75rem 1.25rem;
 }
 
 .outras-bicicletas h2 {
-    color: var(--cor-1);
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
     margin-bottom: 2.5rem;
-}
-
-.outras-bicicletas h2 span {
-    color: var(--cor-p1);
 }
 
 .outras-bicicletas-lista {
@@ -25,10 +15,8 @@
 
 .outras-bicicletas-item a h3 {
     color: var(--cor-1);
-    font-family: var(--font-main);
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 1rem;
+    font: 600 2rem/1.25 var(--font-main), sans-serif;
+    margin: 1rem 0px 8px 0px;
     display: flex;
     align-items: center;
 }
@@ -49,8 +37,7 @@
 
 .outras-bicicletas-item a span {
     color: var(--cor-2);
+    font: 500 1.125rem/1.35 var(--font-secondary), sans-serif;
     font-family: var(--font-secondary);
-    font-size: 1.125rem;
-    font-weight: 500;
     margin-left: 1.25rem;
 }
