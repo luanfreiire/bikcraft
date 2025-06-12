@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body id="magic">
 
-    <!-- header -->
     <header class="header-bg">
         <div class="header">
             <a href="./">
@@ -29,20 +28,22 @@
         </div>
     </header>
 
-    <!-- main -->
     <main>
         <!-- magic might -->
-        <section class="modelos">
-            <article class="modelos-container">
-                <div class="modelos-titulo">
-                    <p>R$ 4999</p>
-                    <h1>Magic Might<span>.</span></h1>
-                </div>
+        <div class="titulo-bg">
+            <div class="titulo1">
+                <p>R$ 4999</p>
+                <h1>Magic Might<span>.</span></h1>
+            </div>
+        </div>
+
+        <section class="modelos-bg">
+            <div class="modelos container">
                 <div class="modelos-content">
                     <picture class="modelos-img">
-                        <img src="./img/bicicleta/nimbus2.jpg" alt="">
-                        <img src="./img/bicicleta/nimbus1.jpg" alt="">
-                        <img src="./img/bicicleta/nimbus3.jpg" alt="">
+                        <img src="../img/bicicleta/nimbus2.jpg" width="1120" height="880" alt="Bicicleta Magic Preta">
+                        <img src="../img/bicicleta/nimbus1.jpg" width="1120" height="880" alt="Bicicleta Nimbus Preta">
+                        <img src="../img/bicicleta/nimbus3.jpg" width="1120" height="880" alt="Bicicleta Nebula Branca">
                     </picture>
                     <div class="modelos-info">
                         <p>
@@ -52,43 +53,44 @@
                         <div class="modelos-comprar">
                             <a href="./orcamento.html" class="btn">Comprar agora</a>
                             <span>
-                                <img src="./img/icones/entrega.svg" alt="">
+                                <img src="../img/icones/entrega.svg" width="16" height="16" alt="">
                                 Entrega em 5 dias
                             </span>
                             <span>
-                                <img src="./img/icones/estoque.svg" alt="">
+                                <img src="../img/icones/estoque.svg" width="16" height="16" alt="">
                                 18 em estoque
                             </span>
                         </div>
 
                         <h2>Informações</h2>
-                        <div class="modelos-informacoes">
-                            <ul class="modelos-lista">
-                                <li class="modelos-item">
-                                    <img src="./img/icones/eletrica.svg" alt="">
-                                    <h2>Motor Elétrico</h2>
+                        <div class="modelos-modal">
+                            <ul class="modelos-info-lista">
+                                <li class="modelos-info-item">
+                                    <img src="../img/icones/eletrica.svg" width="32" height="32" alt="">
+                                    <h3>Motor Elétrico</h3>
                                     <span>Permite você viajar distâncias inimaginaveis com a sua bike.</span>
                                 </li>
-                                <li class="modelos-item">
-                                    <img src="./img/icones/velocidade.svg" alt="">
-                                    <h2>45 km/h</h2>
+                                <li class="modelos-info-item">
+                                    <img src="../img/icones/velocidade.svg" width="32" height="32" alt="">
+                                    <h3>45 km/h</h3>
                                     <span>A mais rápida bicicleta elétrica disponível hoje no mercado.</span>
                                 </li>
-                                <li class="modelos-item">
-                                    <img src="./img/icones/rastreador.svg" alt="">
-                                    <h2>Rastreador</h2>
+                                <li class="modelos-info-item">
+                                    <img src="../img/icones/rastreador.svg" width="32" height="32" alt="">
+                                    <h3>Rastreador</h3>
                                     <span>Rastreador e sistema anti-furto para garantir o seu sossego.</span>
                                 </li>
-                                <li class="modelos-item">
-                                    <img src="./img/icones/carbono.svg" alt="">
-                                    <h2>Fibra de Carbono</h2>
+                                <li class="modelos-info-item">
+                                    <img src="../img/icones/carbono.svg" width="32" height="32" alt="">
+                                    <h3>Fibra de Carbono</h3>
                                     <span>Maior proteção possível para a sua Bikcraft com fibra de carbono.</span>
                                 </li>
                             </ul>
                         </div>
-                        <h2>Ficha técnica</h2>
-                        <div class="modelos-tecnica">
-                            <ul class="modelos-tecnica-lista">
+
+                        <h2 class="subtitulo-ficha">Ficha técnica</h2>
+                        <div class="modelos-modal">
+                            <ul>
                                 <li class="modelos-tecnica-item">
                                     <h3>Peso</h3>
                                     <span>9 kg</span>
@@ -117,18 +119,19 @@
                         </div>
                     </div>
                 </div>
-            </article>
+            </div>
         </section>
 
         <!-- outras bicicletas -->
         <section>
-            <div class="outras-bicicletas">
-                <h2>Outras bicicletas<span>.</span></h2>
+            <div class="outras-bicicletas container">
+                <h2 class="titulo2">Outras bicicletas<span>.</span></h2>
                 <ul class="outras-bicicletas-lista">
                     <li class="outras-bicicletas-item">
                         <a href="./nimbus.html">
                             <picture>
-                                <img src="./img/bicicletas/nimbus.jpg" alt="">
+                                <img src="../img/bicicletas/nimbus.jpg" width="1120" height="680"
+                                    alt="Bicicleta Preta Nimbus">
                             </picture>
                             <h3>Nimbus Stark</h3>
                             <span>R$ 4999</span>
@@ -137,7 +140,8 @@
                     <li class="outras-bicicletas-item">
                         <a href="./nebula.html">
                             <picture>
-                                <img src="./img/bicicletas/nebula.jpg" alt="">
+                                <img src="../img/bicicletas/nebula.jpg" width="1120" height="680"
+                                    alt="Bicicleta Branca Nebula">
                             </picture>
                             <h3>Nebula Cosmic</h3>
                             <span>R$ 3999</span>
@@ -149,26 +153,26 @@
 
         <!-- pedale seguro -->
         <section class="pedale-seguro-bg">
-            <div class="pedale-seguro-container">
+            <div class="pedale-seguro container">
                 <picture class="pedale-seguro-img">
-                    <img src="./img/fotos/seguros.jpg" alt="Pessoa parada em cima de uma bicicleta">
+                    <img src="../img/fotos/seguros.jpg" width="1360" height="1512"
+                        alt="Pessoa parada em cima de uma bicicleta">
                 </picture>
                 <div class="pedale-seguro-content">
-                    <h2>Pedale mais tranquilo com o nosso <span>seguro.</span></h2>
+                    <h2 class="titulo2">Pedale mais tranquilo com o nosso <span>seguro.</span></h2>
                     <p>Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
-                    <a href="#" class="btn">Conheça mais</a>
+                    <a href="./seguros.html" class="btn">Conheça mais</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- footer -->
     <footer>
         <section class="footer-bg">
             <div class="footer container">
                 <picture>
                     <a href="./">
-                        <img src="./img/bikcraft.svg" width="136" height="32" alt="Logotipo Bikcraft">
+                        <img src="../img/bikcraft.svg" width="136" height="32" alt="Logotipo Bikcraft">
                     </a>
                 </picture>
                 <div>
@@ -181,13 +185,13 @@
                     </ul>
                     <div class="footer-redes">
                         <a href="#">
-                            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram Bikcraft">
+                            <img src="../img/redes/instagram.svg" width="32" height="32" alt="Instagram Bikcraft">
                         </a>
                         <a href="#">
-                            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook Bikcraft">
+                            <img src="../img/redes/facebook.svg" width="32" height="32" alt="Facebook Bikcraft">
                         </a>
                         <a href="#">
-                            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube Bikcraft">
+                            <img src="../img/redes/youtube.svg" width="32" height="32" alt="Youtube Bikcraft">
                         </a>
                     </div>
                 </div>
