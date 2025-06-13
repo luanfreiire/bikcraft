@@ -1,0 +1,28 @@
+/* media queries - seguros-pg */
+
+@media(width <=800px) {
+    .seguros-pg {
+        grid-template-columns: 1fr;
+    }
+
+    .seguros-pg {
+        gap: 2.5rem;
+    }
+
+    .vantagens {
+        padding: 3.5rem 1.25rem;
+    }
+
+    .vantagens-lista {
+        margin-top: 2.5rem;
+        gap: 1.25rem;
+    }
+
+    .perguntas {
+        padding: 3.75rem 1.25rem;
+    }
+
+    .perguntas-lista {
+        margin-top: 2.5rem;
+    }
+}

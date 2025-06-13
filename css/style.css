@@ -19,6 +19,13 @@
 /* bicicletas */
 @import url(./bicicletas/bicicletas.css);
 
+/* seguros-pg */
+@import url(./seguros/seguros-pg.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
+@import url(./media-queries/seguros-pg-media/seguros-pg-media.css);
+
+
 /* modelos bicicletas - nimbus, magic, nebula*/
 @import url(./modelos-bicicleta/modelos-bicicletas.css);
 @import url(./modelos-bicicleta/outras-bicicletas.css);
@@ -26,8 +33,6 @@
 
 
 @import url(./termos/termos.css);
-@import url(./seguros/vantagens.css);
-@import url(./seguros/perguntas.css);
 
 @import url(./contato/contato.css);
 @import url(./contato/form-contato.css);
@@ -40,7 +45,6 @@
 @import url(./media-queries/header-footer-media/header-footer-media.css);
 @import url(./media-queries/termos-media.css);
 @import url(./media-queries/bicicletas-media/bicicletas-media.css);
-@import url(./media-queries/seguros-media.css);
 @import url(./media-queries/modelos-bicicleta-media/modelos-media.css);
 @import url(./media-queries/modelos-bicicleta-media/outras-bicicletas-media.css);
 @import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);

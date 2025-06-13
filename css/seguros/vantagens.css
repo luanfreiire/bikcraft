@@ -1,46 +1,31 @@
 /* seguros - vantagens */
 
-.vantagens {
+.vantagens-bg {
     background-color: var(--cor-0);
     color: #fff;
 }
 
-.vantagens-container {
-    max-width: 1200px;
-    margin: 0 auto;
+.vantagens {
     padding: 7.5rem 1.25rem;
-}
-
-.vantagens-container h1 {
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    text-transform: lowercase;
-    margin-bottom: 3.75rem;
-}
-
-.vantagens-container h1 span {
-    color: var(--cor-p1);
 }
 
 .vantagens-lista {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
     gap: 2.5rem 5rem;
+    margin-top: 3.75rem;
 }
 
-.vantagens-item h2 {
-    font-family: var(--font-main);
-    font-size: 1.5rem;
-    font-weight: 500;
+.vantagens-item h3 {
+    font: 500 1.5rem/1.5 var(--font-main), sans-serif;
+}
+
+.vantagens-item h3,
+.vantagens-item img {
+    margin-bottom: 8px;
 }
 
 .vantagens-item p {
-    font-family: var(--font-secondary);
     color: var(--cor-3);
-}
-
-.vantagens-item h2,
-.vantagens-item img {
-    margin-bottom: 8px;
+    font: 400 1rem/1.5 var(--font-secondary), sans-serif;
 }
