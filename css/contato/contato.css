@@ -4,54 +4,22 @@
     background: linear-gradient(var(--cor-1) 600px, var(--cor-7) 0px);
 }
 
-/* contato - titulo */
-.contato-titulo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3.75rem 1.25rem;
-}
-
-.contato-titulo p {
-    color: var(--cor-3);
-    font-family: var(--font-secondary);
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-}
-
-.contato-titulo h1 {
-    color: #fff;
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    text-transform: lowercase;
-}
-
-.contato-titulo h1 span {
-    color: var(--cor-p1);
-}
-
-/* contato - dados, formulario */
 .dados-form {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0px 1.25rem;
     display: grid;
     grid-template-columns: 5fr 7fr;
+    padding: 0px 1.25rem 7.5rem 1.25rem;
 }
 
 .contato-dados {
     background-color: var(--cor-0);
     padding: 3.75rem;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 0px 0px 8px;
 }
 
 .contato-dados h2 {
     color: #fff;
-    font-family: var(--font-main);
-    font-size: 1.125rem;
-    font-weight: 500;
+    font: 500 1.125rem/1.35 var(--font-main), sans-serif;
     text-transform: capitalize;
     margin-bottom: 3.75rem;
 }
@@ -64,7 +32,7 @@
 
 .dados-endereco li {
     color: var(--cor-8);
-    font-family: var(--font-secondary);
+    font: 400 1rem/1.5 var(--font-secondary), sans-serif;
     margin-bottom: 8px;
 }
 
