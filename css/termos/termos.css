@@ -1,45 +1,9 @@
 /* termos e condições */
-.termos-header {
-    background-color: var(--cor-1);
-}
-
-.termos-titulo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3.75rem 1.25rem;
-}
-
-.termos-titulo p {
-    font-family: var(--font-secondary);
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--cor-3);
-}
-
-.termos-titulo h1 {
-    font-family: var(--font-main);
-    font-size: 4rem;
-    font-weight: 600;
-    color: #fff;
-    text-transform: lowercase;
-}
-
-.termos-titulo h1 span {
-    color: var(--cor-p1);
-}
-
-.termos-container {
-    background-color: #fff;
-}
-
-.termos-conteudo {
-    max-width: 1200px;
-    margin: 0 auto;
+.termos {
     padding: 5rem 1.25rem;
 }
 
-.termos-conteudo h2 {
+.termos h2 {
     color: var(--cor-1);
     font-family: var(--font-main);
     font-size: 1.5rem;
@@ -47,7 +11,7 @@
     margin-bottom: 1.25rem;
 }
 
-.termos-conteudo p {
+.termos p {
     font-family: var(--font-secondary);
     font-size: 1rem;
     line-height: 1.5rem;
@@ -56,6 +20,12 @@
     margin-bottom: 1.5rem;
 }
 
-.termos-conteudo p+h2 {
+.termos p+h2 {
     margin-top: 2.5rem;
+}
+
+@media(width <=600px) {
+    .termos {
+        padding: 2.5rem 1.25rem;
+    }
 }
