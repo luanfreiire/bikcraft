@@ -1,35 +1,23 @@
 /* orçamento - media queries */
 
 @media(width <=800px) {
-    .orcamento-titulo {
-        padding: 2rem 1.25rem;
-    }
-
-    .orcamento-titulo p {
-        font-size: 1rem;
-    }
-
-    .orcamento-titulo h1 {
-        font-size: 2rem;
-    }
-
     .orcamento {
         grid-template-columns: 1fr;
     }
 
     .orcamento-produto,
-    .form-orcamento {
+    .form-orcamento-bg {
         padding: 2rem;
     }
 }
 
 @media (width <=600px) {
-    .form-orcamento-lista {
+    .form-lista {
         grid-template-columns: 1fr;
     }
 
-    .form-orcamento li:nth-child(3),
-    .form-orcamento li:nth-child(4) {
+    .form-lista li:nth-child(3),
+    .form-lista li:nth-child(4) {
         grid-column: initial;
     }
 }
