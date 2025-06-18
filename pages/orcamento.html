@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orçamento | Bikcraft</title>
     <meta name="description" content="Orçamento Bikcraft">
-    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
-    <link rel="preload" href="/css/style.css" as="style">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -36,18 +37,18 @@
             </div>
         </div>
 
-        <div class="orcamento container">
+        <form action="./" class="orcamento container">
             <!-- orçamento bikcraft -->
             <section class="orcamento-produto">
                 <p class="subtitulo-orcamento">Bikcraft ou seguro?</p>
                 <div class="bikcraft-seguro">
-                    <button>Bikcraft</button>
+                    <button id="btnBikcraft">Bikcraft</button>
                     <button>Seguro</button>
                 </div>
-                <p>Escolha a sua?</p>
 
                 <!-- nimbus stark -->
                 <div class="orcamento-item">
+                    <p>Escolha a sua?</p>
                     <button class="orcamento-btn">
                         Nimbus Stark
                         <span>R$ 4999</span>
@@ -136,7 +137,7 @@
 
             <!-- formulario -->
             <section class="form-orcamento-bg">
-                <form action="#">
+                <div>
                     <p>Dados Pessoais</p>
                     <ul class="form-lista">
                         <li>
@@ -185,9 +186,9 @@
                         </li>
                     </ul>
                     <button class="btn">Solicitar Orçamento</button>
-                </form>
+                </div>
             </section>
-        </div>
+        </form>
     </main>
 
     <footer>
@@ -240,6 +241,7 @@
         </section>
     </footer>
 
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

@@ -1,12 +1,15 @@
 /* styles css */
+
+/* global */
 @import url(./global/global.css);
-
-/* componentes */
 @import url(./global/componentes.css);
-
-/* header e footer */
+@import url(./global/animacao.css);
 @import url(./global/header.css);
 @import url(./global/footer.css);
+@import url(./media-queries/header-footer-media/header-footer-media.css);
+
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@1,18..144,900&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
 
 /* home - index */
 @import url(./home/introducao.css);
@@ -15,9 +18,11 @@
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
 @import url(./home/seguros-home.css);
+@import url(./media-queries/home-media/home-media.css);
 
 /* bicicletas */
 @import url(./bicicletas/bicicletas.css);
+@import url(./media-queries/bicicletas-media/bicicletas-media.css);
 
 /* seguros-pg */
 @import url(./seguros/seguros-pg.css);
@@ -30,26 +35,21 @@
 @import url(./modelos-bicicleta/modelos-bicicletas.css);
 @import url(./modelos-bicicleta/outras-bicicletas.css);
 @import url(./modelos-bicicleta/pedale-seguro.css);
+@import url(./media-queries/modelos-bicicleta-media/modelos-media.css);
+@import url(./media-queries/modelos-bicicleta-media/outras-bicicletas-media.css);
+@import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);
 
 
 @import url(./termos/termos.css);
 
+/* contato */
 @import url(./contato/contato.css);
 @import url(./contato/form-contato.css);
 @import url(./contato/lojas-locais.css);
-@import url(./orcamento/orcamento.css);
-@import url(./orcamento/form-orcamento.css);
-
-/* media queries */
-@import url(./media-queries/home-media/home-media.css);
-@import url(./media-queries/header-footer-media/header-footer-media.css);
-@import url(./media-queries/bicicletas-media/bicicletas-media.css);
-@import url(./media-queries/modelos-bicicleta-media/modelos-media.css);
-@import url(./media-queries/modelos-bicicleta-media/outras-bicicletas-media.css);
-@import url(./media-queries/modelos-bicicleta-media/pedale-seguro-media.css);
 @import url(./media-queries/contato-media/dados-form-media.css);
 @import url(./media-queries/contato-media/lojas-locais-media.css);
-@import url(./media-queries/orcamento-media/orcamento-media.css);
 
-/* fontes */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,900;1,18..144,900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100..900&display=swap');
+/* orçamento */
+@import url(./orcamento/orcamento.css);
+@import url(./orcamento/form-orcamento.css);
+@import url(./media-queries/orcamento-media/orcamento-media.css);

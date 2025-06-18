@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bicicletas | Bikcraft</title>
     <meta name="description" content="Todos os modelos de bicicletas Bikcraft">
-    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
-    <link rel="preload" href="/css/style.css" as="style">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -41,7 +42,7 @@
         <section>
             <!-- nimbus stark -->
             <article class="bicicletas container">
-                <picture class="bicicletas-img">
+                <picture class="bicicletas-img fadeInLeft" data-anime="200">
                     <img src="../img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Bicicleta Preta Nimbus">
                     <span>R$ 4999</span>
                 </picture>
@@ -78,7 +79,7 @@
             <!-- magic might -->
             <article class="magic-bg">
                 <article class="bicicletas container">
-                    <picture class="bicicletas-img">
+                    <picture class="bicicletas-img fadeInLeft" data-anime="400">
                         <img src="../img/bicicletas/magic.jpg" width="1120" height="680" alt="Bicicleta Preta Magic">
                         <span>R$ 2499</span>
                     </picture>
@@ -116,7 +117,7 @@
 
             <!-- nebula cosmic -->
             <article class="bicicletas container">
-                <picture class="bicicletas-img">
+                <picture class="bicicletas-img fadeInLeft" data-anime="600">
                     <img src="../img/bicicletas/nebula.jpg" width="1120" height="680" alt="Bicicleta Branca Nebula">
                     <span>R$ 3999</span>
                 </picture>
@@ -203,6 +204,8 @@
         </section>
     </footer>
 
+    <script src="../js/plugins/simple-anime.js"></script>;
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

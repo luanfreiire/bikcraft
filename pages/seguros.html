@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seguros | Bikcraft</title>
     <meta name="description" content="Seguros para sua bicicleta Bikcraft">
-    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
-    <link rel="preload" href="/css/style.css" as="style">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
 
         <section class="seguros-pg-bg">
             <div class="seguros-pg container">
-                <div class="seguros-pg-item">
+                <div class="seguros-pg-item fadeInLeft" data-anime="400">
                     <div class="segurospg-item-titulo">
                         <h3>Prata</h3>
                         <p>
@@ -58,7 +59,7 @@
                     </div>
                 </div>
 
-                <div class="seguros-pg-item">
+                <div class="seguros-pg-item fadeInRight" data-anime="600">
                     <div class="segurospg-item-titulo">
                         <h3 class="ouro">Ouro</h3>
                         <p>
@@ -132,43 +133,55 @@
                 <h1 class="titulo2">Perguntas frequentes<span>.</span></h1>
                 <dl class="perguntas-lista">
                     <div class="perguntas-item">
-                        <dt>Qual forma de pagamento vocês aceitam?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta1" aria-expanded="true">
+                                Qual forma de pagamento vocês aceitam?
+                            </button></dt>
+                        <dd id="pergunta1" class="pergunta-ativo">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
                     </div>
                     <div class="perguntas-item">
-                        <dt>Como posso entrar em contato?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta2" aria-expanded="false">
+                                Posso entrar em contato?
+                            </button></dt>
+                        <dd id="pergunta2">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
                     </div>
                     <div class="perguntas-item">
-                        <dt>Vocês possuem algum desconto?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta3" aria-expanded="false">
+                                Vocês possuem algum desconto?
+                            </button></dt>
+                        <dd id="pergunta3">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
                     </div>
                     <div class="perguntas-item">
-                        <dt>Qual a garantia que possuo?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta4" aria-expanded="false">
+                                Qual a garantia que possuo?
+                            </button></dt>
+                        <dd id="pergunta4">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
                     </div>
                     <div class="perguntas-item">
-                        <dt>Posso parcelar no boleto?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta5" aria-expanded="false">
+                                Posso parcelar no boleto?
+                            </button></dt>
+                        <dd id="pergunta5">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
                     </div>
                     <div class="perguntas-item">
-                        <dt>Quantas trocas posso fazer ao ano?</dt>
-                        <dd>
+                        <dt><button aria-controls="pergunta6" aria-expanded="false">
+                                Quantas trocas posso fazer ao ano?
+                            </button></dt>
+                        <dd id="pergunta6">
                             Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                             também aceitarmos PIX e Boleto através do PagSeguro.
                         </dd>
@@ -228,6 +241,8 @@
         </section>
     </footer>
 
+    <script src="../js/plugins/simple-anime.js"></script>;
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

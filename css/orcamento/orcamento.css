@@ -65,6 +65,7 @@
 }
 
 .orcamento-item {
+    display: grid;
     margin-bottom: 1.25rem;
 }
 
@@ -99,7 +100,7 @@
 }
 
 .orcamento-detalhes {
-    display: none;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     background-color: #fff;
